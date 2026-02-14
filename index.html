@@ -1,22 +1,146 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Conferência NFS-e</title>
-  <meta name="description" content="Extensão e conteúdos sobre conferência de NFS-e.">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Conferência NFS-e — Tutoriais e Extensão (ZIP)</title>
+  <meta name="description" content="Tutoriais do Emissor Nacional (nfse.gov.br) + extensão em ZIP para acelerar conferência de NFS-e: retenções, canceladas/substituídas e totalização." />
+  <link rel="stylesheet" href="styles.css" />
 
   <!-- Google AdSense -->
-  <script async 
-    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1046870056304478"
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1046870056304478"
     crossorigin="anonymous"></script>
-
 </head>
+
 <body>
+  <header class="wrap header">
+    <a class="brand" href="index.html">
+      <img src="assets/logo.png" alt="Logo" class="logo" />
+      <div>
+        <div class="brand-title">Conferência NFS-e</div>
+        <div class="brand-sub">Tutoriais + download da extensão (ZIP)</div>
+      </div>
+    </a>
 
-  <h1>Conferência de NFS-e</h1>
-  <p>Site ativo para validação do Google AdSense.</p>
-  <p><a href="extensao.html">Página da extensão</a></p>
+    <nav class="nav">
+      <a href="extensao.html">Extensão</a>
+      <a href="blog/index.html">Blog</a>
+      <a href="tutorial.html">Tutorial</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
 
+  <main>
+    <section class="wrap hero">
+      <div>
+        <div class="kicker">Conteúdo técnico para contadores • SEO + anúncios</div>
+        <h1>Conferência de NFS-e no Emissor Nacional, sem perder tempo.</h1>
+        <p class="lead">
+          Guias práticos sobre XML, retenções, cancelamento/substituição e organização de notas.
+          Baixe a extensão em ZIP (modo desenvolvedor) para agilizar tarefas repetitivas.
+        </p>
+
+        <div class="cta">
+          <a class="btn primary" href="extensao.html">Ver página da extensão</a>
+          <a class="btn ghost" id="btnZip" href="downloads/extensao_conferencia_nfse.zip">Baixar extensão (ZIP)</a>
+        </div>
+
+        <div class="trust">
+          <span>✔ Conteúdo original</span>
+          <span>✔ Páginas essenciais (políticas)</span>
+          <span>✔ Estrutura pronta para AdSense</span>
+        </div>
+
+        <div class="ads" role="complementary" aria-label="Anúncio">
+          <strong>Espaço reservado para anúncios</strong>
+          <div style="margin-top:8px">
+            Quando sua conta for aprovada, substitua este bloco pelo código do anúncio (ou use Auto Ads).
+          </div>
+        </div>
+
+        <div class="grid section" style="padding-bottom:0">
+          <div class="card">
+            <h3>O que você encontra aqui</h3>
+            <p>
+              Artigos objetivos com passo a passo e checklists para reduzir erros na conferência de NFS-e,
+              especialmente quando há retenções e mudanças de situação (cancelada/substituída).
+            </p>
+          </div>
+          <div class="card">
+            <h3>Como o site vira renda com anúncios</h3>
+            <p>
+              O ganho vem do tráfego orgânico (Google). Quanto mais páginas úteis, maior a chance de visitas recorrentes
+              e mais impressões de anúncios.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <img class="card" src="assets/screenshot.png" alt="Imagem ilustrativa" />
+        <div class="note">
+          <span class="badge">Sem Web Store</span>
+          <p style="margin:10px 0 0">
+            Instalação por ZIP: <code>chrome://extensions</code> → Modo do desenvolvedor → Carregar sem compactação.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap section">
+      <h2>Artigos recentes</h2>
+
+      <div class="post-list">
+        <a class="post-item" href="blog/posts/como-baixar-xml-nfse-em-lote.html">
+          <h3>Como baixar XML da NFS-e em lote no Emissor Nacional</h3>
+          <div class="meta">NFS-e • XML • produtividade</div>
+        </a>
+
+        <a class="post-item" href="blog/posts/como-identificar-retencao-iss-no-xml.html">
+          <h3>Como identificar retenção de ISS no XML da NFS-e</h3>
+          <div class="meta">ISS • XML • retenções</div>
+        </a>
+
+        <a class="post-item" href="blog/posts/cancelada-vs-substituida.html">
+          <h3>Cancelada vs Substituída: como diferenciar no portal</h3>
+          <div class="meta">Situação • conferência • erros comuns</div>
+        </a>
+      </div>
+
+      <div class="ads" role="complementary" aria-label="Anúncio">
+        <strong>Espaço reservado para anúncios</strong>
+        <div style="margin-top:8px">
+          Quando sua conta for aprovada, substitua este bloco pelo código do anúncio (ou use Auto Ads).
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <div>© <span id="year"></span> Conferência NFS-e</div>
+    <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+      <a href="privacidade.html">Política de Privacidade</a>
+      <span>•</span>
+      <a href="termos.html">Termos</a>
+      <span>•</span>
+      <a href="cookies.html">Cookies</a>
+    </div>
+  </footer>
+
+  <div class="cookie" id="cookieBanner" aria-live="polite">
+    <div class="row">
+      <div style="flex:1;min-width:240px">
+        <strong>Cookies</strong>
+        <p>Este site pode usar cookies para medir tráfego e exibir anúncios. Você pode aceitar ou recusar.</p>
+      </div>
+      <div class="actions">
+        <button class="btn primary" id="cookieAccept" type="button">Aceitar</button>
+        <button class="btn" id="cookieReject" type="button">Recusar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
