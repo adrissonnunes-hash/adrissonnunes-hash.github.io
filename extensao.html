@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Extensão (ZIP) — Conferência NFS-e</title>
+  <meta name="description" content="Download e instalação por ZIP da extensão de conferência para nfse.gov.br. Passo a passo, requisitos e FAQ." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="wrap header">
+  <a class="brand" href="index.html">
+    <img src="assets/logo.png" alt="Logo" class="logo" />
+    <div>
+      <div class="brand-title">Conferência NFS-e</div>
+      <div class="brand-sub">Tutoriais + download da extensão (ZIP)</div>
+    </div>
+  </a>
+  <nav class="nav">
+    <a href="extensao.html">Extensão</a>
+    <a href="blog/index.html">Blog</a>
+    <a href="tutorial.html">Tutorial</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+</header>
+
+<main class="wrap section">
+  <div class="breadcrumb"><a href="index.html">Início</a> → Extensão</div>
+  <h1 style="margin-top:10px">Extensão em ZIP (modo desenvolvedor)</h1>
+  <p class="lead">
+    Este download é indicado para uso interno/avançado. A instalação é feita carregando a pasta descompactada no Chrome.
+  </p>
+
+  <div class="ads" role="complementary" aria-label="Anúncio">
+  <strong>Espaço reservado para anúncios</strong>
+  <div style="margin-top:8px">
+    Quando sua conta for aprovada (ex.: AdSense), substitua este bloco pelo código do anúncio.
+  </div>
+</div>
+
+  <div class="grid">
+    <div class="card">
+      <h3>1) Baixar</h3>
+      <p>Baixe o arquivo ZIP da extensão e extraia em uma pasta (não deixe dentro do .zip).</p>
+      <div class="cta">
+        <a class="btn primary" id="btnZip" href="downloads/extensao_conferencia_nfse.zip">Baixar extensão (ZIP)</a>
+      </div>
+    </div>
+    <div class="card">
+      <h3>2) Instalar</h3>
+      <ol>
+        <li>Abra <code>chrome://extensions</code></li>
+        <li>Ative <strong>Modo do desenvolvedor</strong></li>
+        <li>Clique em <strong>Carregar sem compactação</strong></li>
+        <li>Selecione a pasta extraída da extensão</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:12px">
+    <h3>FAQ rápido</h3>
+    <ul>
+      <li><strong>Não aparece no portal:</strong> confirme se está em <code>https://www.nfse.gov.br/EmissorNacional/</code>.</li>
+      <li><strong>TI bloqueia:</strong> algumas empresas desativam “Modo do desenvolvedor”.</li>
+      <li><strong>Atualizar:</strong> substitua os arquivos e clique em “Atualizar” na tela de extensões.</li>
+    </ul>
+  </div>
+
+  <div class="ads" role="complementary" aria-label="Anúncio">
+  <strong>Espaço reservado para anúncios</strong>
+  <div style="margin-top:8px">
+    Quando sua conta for aprovada (ex.: AdSense), substitua este bloco pelo código do anúncio.
+  </div>
+</div>
+</main>
+
+<footer class="wrap footer">
+  <div>© <span id="year"></span> Conferência NFS-e</div>
+  <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+    <a href="privacidade.html">Política de Privacidade</a>
+    <span>•</span>
+    <a href="termos.html">Termos</a>
+    <span>•</span>
+    <a href="cookies.html">Cookies</a>
+  </div>
+</footer>
+<div class="cookie" id="cookieBanner" aria-live="polite">
+  <div class="row">
+    <div style="flex:1;min-width:240px">
+      <strong>Cookies</strong>
+      <p>Este site pode usar cookies para medir tráfego e exibir anúncios. Você pode aceitar ou recusar.</p>
+    </div>
+    <div class="actions">
+      <button class="btn primary" id="cookieAccept" type="button">Aceitar</button>
+      <button class="btn" id="cookieReject" type="button">Recusar</button>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>

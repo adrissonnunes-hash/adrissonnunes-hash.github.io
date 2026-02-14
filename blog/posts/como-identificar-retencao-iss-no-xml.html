@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Como identificar retenção de ISS no XML da NFS-e — Blog | Conferência NFS-e</title>
+  <meta name="description" content="O que conferir no XML para identificar retenção de ISS e evitar erros em totalizadores e lançamentos." />
+  <link rel="stylesheet" href="../../styles.css" />
+</head>
+<body>
+
+<header class="wrap header">
+  <a class="brand" href="../../index.html">
+    <img src="../../assets/logo.png" alt="Logo" class="logo" />
+    <div>
+      <div class="brand-title">Conferência NFS-e</div>
+      <div class="brand-sub">Tutoriais + download da extensão (ZIP)</div>
+    </div>
+  </a>
+  <nav class="nav">
+    <a href="../../extensao.html">Extensão</a>
+    <a href="../../blog/index.html">Blog</a>
+    <a href="../../tutorial.html">Tutorial</a>
+    <a href="../../sobre.html">Sobre</a>
+    <a href="../../contato.html">Contato</a>
+  </nav>
+</header>
+
+<main class="wrap section">
+  <div class="breadcrumb"><a href="../../index.html">Início</a> → <a href="../index.html">Blog</a> → Como identificar retenção de ISS no XML da NFS-e</div>
+  <h1 style="margin-top:10px">Como identificar retenção de ISS no XML da NFS-e</h1>
+  <div class="kicker">8 min • Conteúdo prático</div>
+
+  <div class="ads" role="complementary" aria-label="Anúncio">
+  <strong>Espaço reservado para anúncios</strong>
+  <div style="margin-top:8px">
+    Quando sua conta for aprovada (ex.: AdSense), substitua este bloco pelo código do anúncio.
+  </div>
+</div>
+
+  <article class="card">
+    
+<p>Nem todo XML de NFS-e tem o mesmo layout (padrões variam), mas a lógica é sempre a mesma: existe um indicador/campo que diz se o ISS foi retido e, quando houver retenção, os valores relacionados precisam fazer sentido.</p>
+<h2>O que conferir no XML</h2>
+<ul>
+  <li><strong>Indicador de retenção:</strong> campo que indica se o ISS está retido.</li>
+  <li><strong>Valor de ISS/retido:</strong> quando existir, confira se o cálculo bate com a base.</li>
+  <li><strong>Valores federais:</strong> IRRF/CSLL/PIS/COFINS podem aparecer como retenções separadas.</li>
+</ul>
+<h2>Conferência segura</h2>
+<p>Se você confere em volume, o ideal é marcar visualmente “tem retenção” e “não tem retenção”, e só depois totalizar. Isso reduz erro de soma.</p>
+
+  </article>
+
+  <div class="ads" role="complementary" aria-label="Anúncio">
+  <strong>Espaço reservado para anúncios</strong>
+  <div style="margin-top:8px">
+    Quando sua conta for aprovada (ex.: AdSense), substitua este bloco pelo código do anúncio.
+  </div>
+</div>
+
+  <div class="note">
+    Quer automatizar? Baixe a extensão em ZIP: <a href="../../extensao.html">página da extensão</a>.
+  </div>
+</main>
+
+<footer class="wrap footer">
+  <div>© <span id="year"></span> Conferência NFS-e</div>
+  <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+    <a href="../../privacidade.html">Política de Privacidade</a>
+    <span>•</span>
+    <a href="../../termos.html">Termos</a>
+    <span>•</span>
+    <a href="../../cookies.html">Cookies</a>
+  </div>
+</footer>
+<div class="cookie" id="cookieBanner" aria-live="polite">
+  <div class="row">
+    <div style="flex:1;min-width:240px">
+      <strong>Cookies</strong>
+      <p>Este site pode usar cookies para medir tráfego e exibir anúncios. Você pode aceitar ou recusar.</p>
+    </div>
+    <div class="actions">
+      <button class="btn primary" id="cookieAccept" type="button">Aceitar</button>
+      <button class="btn" id="cookieReject" type="button">Recusar</button>
+    </div>
+  </div>
+</div>
+<script src="../../script.js"></script>
+
+</body>
+</html>
